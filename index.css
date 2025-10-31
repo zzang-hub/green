@@ -1,0 +1,306 @@
+@charset "UTF-8";
+
+/* index.css */
+
+/* 
+구글 웹폰트
+
+1) 영문
+Use a value from 300 to 900
+font-family: "Merriweather", serif;
+
+2) 한글
+font-family: "Nanum Gothic", sans-serif;
+font-weight: 400 | 700 | 800;
+
+*/
+
+/******************  main  ******************************************** */
+
+main {
+
+    width: 100%;
+ 
+   
+ 
+}
+main .inner_main{
+      width: 100%;
+     background-color: #f0c873;
+     height: 700px;
+ 
+}
+main .promotion {
+    width: 100%;
+    max-width: 1920px;
+    height: 100%;
+     margin: 140px auto 80px;
+    background: url(../img/main_forest.jpg) no-repeat center top/cover;
+
+
+
+}
+
+main .promotion a {
+    /* display: none; */
+    /*  background-color: red; */
+    width: 100%;
+    height: 100%;
+    font-size: 0;
+}
+
+main .inner_event{
+
+
+background-color:#e6a956;
+
+}
+main .event {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+main .event img {
+    width: 100%;
+    display: block;
+}
+
+/******************  section  ******************************************** */
+
+section {
+    /*  background-color: bisque; */
+}
+
+section>article {}
+
+article.md_pick {
+    width: 1280px;
+    margin: 0 auto 100px;
+
+}
+
+article.md_pick .content {
+    /* background-color: violet; */
+}
+
+article.md_pick .content .md_box {
+    width: 25%;
+    float: left;
+
+    text-align: center;
+
+    /*   outline: 2px solid red; */
+
+}
+
+section .md_pick .sec_title {}
+
+section .md_pick .content {}
+
+section .md_pick .md_box {}
+
+section .md_pick .md_box .photo {}
+
+section .md_pick .md_box .photo img {}
+
+section .md_pick .md_box .photo a {}
+
+
+.md_box .photo {
+    margin-bottom: 30px;
+    position: relative;
+
+    /*  outline: 2px solid plum; */
+    transition: all 1s;
+
+}
+
+.md_box .photo:hover img {
+    opacity: 0.4;
+}
+
+.md_box .photo:hover .quick {
+    opacity: 100%;
+}
+
+.md_box .photo img {
+    width: 100%;
+    display: block;
+
+}
+
+
+.md_box .photo .quick {
+    background-color: rgb(255, 131, 6);
+    display: inline-block;
+    padding: 5px 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 1.2px;
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    /* left:0; */
+
+    transform: translateX(-50%);
+    opacity: 0;
+
+
+}
+
+.md_box .caption {
+    /* background-color: aqua; */
+    padding: 0 5%;
+
+
+}
+
+.md_box .caption h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.md_box .caption h3 a:hover {
+    color: rgba(207, 102, 26);
+    text-decoration: underline;
+}
+
+.md_box .caption p {
+    margin-bottom: 10px;
+}
+
+.md_box .caption p.des {}
+
+.md_box .caption p.price {
+    color: rgba(207, 102, 26);
+    font-weight: 700;
+}
+
+
+
+section .new {
+    width: 1280px;
+    max-width: ;
+    /*  outline: 2px rgb(249, 84, 7) solid; */
+    margin: 100px auto;
+}
+
+article.new h2 {}
+
+article.new .content {}
+
+article.new .content ul {}
+
+article.new .content ul li {
+    width: 32%;
+    /* outline: 2px solid green; */
+    overflow: hidden;
+
+
+}
+
+article.new .content ul li~li {
+    margin-left: 2%;
+}
+
+article.new .content ul li img {
+    width: 100%;
+    display: block;
+    transition: all 0.5s;
+
+}
+
+article.new .content ul li a:hover img {
+    transform: scale(1.5);
+}
+
+article.new .content .new_list li a {
+    /* outline: 2px solid green; */
+    overflow: hidden;
+}
+
+article.new .content .new_list li h3 {
+    font-size: 20px;
+
+    text-align: center;
+    margin-top: 20px;
+}
+
+article.new .content .new_list li h3:hover {
+    color: rgba(207, 102, 26);
+    transition: all 1s;
+}
+
+/* article.instargram {
+    background-color: blueviolet;
+   
+}
+ */
+
+section .instargram {
+    width: 100%;
+    background-color: rgb(99, 62, 134);
+    padding: 60px 0;
+
+}
+
+section .instargram h2 {
+
+    color: #fff;
+}
+
+section .instargram .thumb {
+  
+}
+
+section .instargram .thumb ul {}
+
+section .instargram .thumb ul li {
+    width: 16.666666%;
+        
+
+}
+
+section .instargram .thumb ul li img {
+    width: 100%;
+    display: block;
+     transition: all 0.6s;
+
+}
+
+section .instargram .thumb ul li a {
+
+
+    overflow: hidden;
+
+}
+
+section .instargram .thumb ul li:hover img {
+    transform: scale(1.2);
+    opacity: 0.7;
+    
+   
+}
+
+/* section .instargram .thumb ul li:hover img {} */
+
+section .instargram .follow_btn {
+
+    text-align: center;
+}
+
+
+section .instargram .follow_btn a {
+    padding: 7px;
+    background-color: rgb(255, 157, 10);
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 100px;
+    color: #Fff;
+    font-size: 25px;
+    font-family: 700;
+    text-transform: uppercase;
+}

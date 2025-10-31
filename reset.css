@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+
+/*reset.css */
+
+
+
+
+/* 구글 웹폰트
+1) 영문
+USE  a valu from 300 to 900
+font-family: "Merriweather", serif;
+
+2)영문폰트
+USE  a valu from 300 to 900
+font-family: "Nanum Gothic", sans-serif;
+
+*/
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+
+}
+
+
+a {
+    text-decoration: none;
+    display: block;
+    color: inherit;
+}
+
+ul,
+li,
+ol {
+    list-style: none;
+}
+/* float해제를 위한 가상요소 */
+.clear::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+ul::after,
+ol::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+li {
+    float: left;
+}

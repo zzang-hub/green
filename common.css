@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+
+/* 구글 웹폰트
+1) 영문
+USE  a valu from 300 to 900
+font-family: "Merriweather", serif;
+
+2)영문폰트
+USE  a valu from 300 to 900
+font-family: "Nanum Gothic", sans-serif;
+*/
+
+
+/* commom.css */
+
+
+
+/* 안쪽에서 컨텐츠 너비를 잡아줄 때 사용할 클래스! */
+.inner{
+    width:1280px;
+    margin: 0 auto;
+    /* outline: 2px solid red; */
+}
+
+/* 본문 영역 제목에 공통으로 적용될 디자인 */
+
+.sec_title{
+    color:rgb(207,102,26);
+    font-size: 28px;
+    font-family: "Merriweather", serif;
+    font-weight: 700px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+/* 영문폰트 클래스 */
+.eng_font{
+    font-family: "Merriweather", serif
+}
+
+
+body{
+font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
+}
